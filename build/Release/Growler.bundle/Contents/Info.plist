@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>Growler</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.aditya.growl2</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Growler</string>
+	<key>CFBundlePackageType</key>
+	<string>WBPL</string>
+	<key>CFBundleSignature</key>
+	<string>GR2</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>NSPrincipalClass</key>
+	<string>GrowlerView</string>
+	<key>WebPluginDescription</key>
+	<string>Allows a Growl bridge for Web Applications to send notifications using Javascript!</string>
+	<key>WebPluginMIMETypes</key>
+	<dict>
+		<key>application/x-growl</key>
+		<dict>
+			<key>WebPluginExtensions</key>
+			<array>
+				<string>growl</string>
+			</array>
+			<key>WebPluginTypeDescription</key>
+			<string>Allows a Growl bridge for Web Applications to send notifications using Javascript!</string>
+		</dict>
+	</dict>
+	<key>WebPluginName</key>
+	<string>Growler</string>
+</dict>
+</plist>
