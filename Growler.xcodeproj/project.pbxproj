@@ -7,23 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		483D199810009FED0001D25F /* Growl-WithInstaller.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 483D199110009FD80001D25F /* Growl-WithInstaller.framework */; };
-		483D19A31000A0340001D25F /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 483D19A01000A01D0001D25F /* Growl Registration Ticket.growlRegDict */; };
-		483D19A61000A0470001D25F /* GrowlerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 483D19A51000A0470001D25F /* GrowlerView.m */; };
-		48C6C4D11003CD7E00D73096 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 48C6C4D01003CD7E00D73096 /* LICENSE.txt */; };
-		48DBD75510039966004E6915 /* Growler.png in Resources */ = {isa = PBXBuildFile; fileRef = 48DBD75410039966004E6915 /* Growler.png */; };
+		48F46BC21005707C00CCB1B2 /* GrowlerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48F46BC11005707C00CCB1B2 /* GrowlerView.m */; };
+		48F46BC8100570C400CCB1B2 /* Growl-WithInstaller.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 48F46BC7100570C400CCB1B2 /* Growl-WithInstaller.framework */; };
+		48F46BD2100570DA00CCB1B2 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 48F46BD1100570DA00CCB1B2 /* Growl Registration Ticket.growlRegDict */; };
+		48F46BEF1005717E00CCB1B2 /* Growler.png in Resources */ = {isa = PBXBuildFile; fileRef = 48F46BEE1005717E00CCB1B2 /* Growler.png */; };
 		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
 		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		483D199F1000A00B0001D25F /* CopyFiles */ = {
+		48F46BCB100570C400CCB1B2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				483D199810009FED0001D25F /* Growl-WithInstaller.framework in CopyFiles */,
+				48F46BC8100570C400CCB1B2 /* Growl-WithInstaller.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,12 +34,11 @@
 		089C167FFE841241C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		32DBCF630370AF2F00C91783 /* Growler_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Growler_Prefix.pch; sourceTree = "<group>"; };
-		483D199110009FD80001D25F /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Growl-WithInstaller.framework"; path = "../Desktop/Growl-WithInstaller.framework"; sourceTree = SOURCE_ROOT; };
-		483D19A01000A01D0001D25F /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
-		483D19A41000A0470001D25F /* GrowlerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlerView.h; sourceTree = "<group>"; };
-		483D19A51000A0470001D25F /* GrowlerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowlerView.m; sourceTree = "<group>"; };
-		48C6C4D01003CD7E00D73096 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		48DBD75410039966004E6915 /* Growler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Growler.png; sourceTree = "<group>"; };
+		48F46BC01005707C00CCB1B2 /* GrowlerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlerView.h; sourceTree = "<group>"; };
+		48F46BC11005707C00CCB1B2 /* GrowlerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowlerView.m; sourceTree = "<group>"; };
+		48F46BC7100570C400CCB1B2 /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Growl-WithInstaller.framework"; path = "/Users/aditya/Desktop/Growl-WithInstaller.framework"; sourceTree = "<absolute>"; };
+		48F46BD1100570DA00CCB1B2 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
+		48F46BEE1005717E00CCB1B2 /* Growler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Growler.png; sourceTree = "<group>"; };
 		8D5B49B6048680CD000E48DA /* Growler.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Growler.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2F7E65807B2D6F200F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
@@ -73,7 +71,7 @@
 		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				483D199110009FD80001D25F /* Growl-WithInstaller.framework */,
+				48F46BC7100570C400CCB1B2 /* Growl-WithInstaller.framework */,
 				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
 				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
 			);
@@ -83,11 +81,10 @@
 		089C167CFE841241C02AAC07 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				48DBD75410039966004E6915 /* Growler.png */,
+				48F46BEE1005717E00CCB1B2 /* Growler.png */,
+				48F46BD1100570DA00CCB1B2 /* Growl Registration Ticket.growlRegDict */,
 				8D5B49B7048680CD000E48DA /* Info.plist */,
 				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
-				483D19A01000A01D0001D25F /* Growl Registration Ticket.growlRegDict */,
-				48C6C4D01003CD7E00D73096 /* LICENSE.txt */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -95,8 +92,8 @@
 		08FB77AFFE84173DC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				483D19A41000A0470001D25F /* GrowlerView.h */,
-				483D19A51000A0470001D25F /* GrowlerView.m */,
+				48F46BC01005707C00CCB1B2 /* GrowlerView.h */,
+				48F46BC11005707C00CCB1B2 /* GrowlerView.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -145,7 +142,7 @@
 				8D5B49AF048680CD000E48DA /* Resources */,
 				8D5B49B1048680CD000E48DA /* Sources */,
 				8D5B49B3048680CD000E48DA /* Frameworks */,
-				483D199F1000A00B0001D25F /* CopyFiles */,
+				48F46BCB100570C400CCB1B2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -179,10 +176,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				483D19A31000A0340001D25F /* Growl Registration Ticket.growlRegDict in Resources */,
 				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
-				48DBD75510039966004E6915 /* Growler.png in Resources */,
-				48C6C4D11003CD7E00D73096 /* LICENSE.txt in Resources */,
+				48F46BD2100570DA00CCB1B2 /* Growl Registration Ticket.growlRegDict in Resources */,
+				48F46BEF1005717E00CCB1B2 /* Growler.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				483D19A61000A0470001D25F /* GrowlerView.m in Sources */,
+				48F46BC21005707C00CCB1B2 /* GrowlerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +213,7 @@
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Desktop\"",
+					/Users/aditya/Desktop,
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -239,7 +235,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../Desktop\"",
+					/Users/aditya/Desktop,
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -268,7 +264,6 @@
 					ppc,
 					i386,
 				);
-				CURRENT_PROJECT_VERSION = 0.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
